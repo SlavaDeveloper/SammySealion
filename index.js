@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
   res.send('Test Page');
 })
 
-app.get('/token/:token_id', function(req, res) {
+app.get('/api/token/:token_id', function(req, res) {
   const tokenId = parseInt(req.params.token_id).toString()
   const person = db[tokenId]
   const data = {
