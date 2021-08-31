@@ -1,4 +1,4 @@
-const HOST = 'api.snkrsdev.xyz'
+const HOST = 'slavadev.xyz'
 
 module.exports = {
   HOST
